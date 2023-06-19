@@ -1,7 +1,7 @@
 # telegram-autoforwarder
 ### Message me on [Telegram](https://t.me/zhivysss) to buy the clean source codes.
 ## Usage
-Repository contains 2 scripts written using Python.
+Repository contains 2 scripts made using Python.
 1. Autopost all new messages from one channels to another.
 2. Autopost all existing messages (or before a certain date) with delay from one channels to another.
 
