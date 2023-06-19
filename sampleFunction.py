@@ -2,7 +2,7 @@
 async def sender_bH(event):
     for i, source in enumerate(FROM):
         if event.chat_id == source:
-            destination = TO[i]
+            destination = TO[i]    #if needed can be edited to post to only one channel
             await BotzHubUser.send_message(
                 destination,
                 event.message
