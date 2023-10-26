@@ -7,7 +7,6 @@ bot_token = ''
 api_id = ''
 api_hash = ''
 username = ''
-phone = ''
 source_channel_username = 123
 target_channel_username = 123
 
@@ -22,4 +21,4 @@ with TelegramClient(username, api_id, api_hash) as client:
         if message.media:
             client.send_file(target_channel_username, message.media, caption=message.text)
 
-print('Сообщения успешно скопированы и отправлены от вашего имени в другой канал.')
+print('Msgs sent to another channel successfully.')
